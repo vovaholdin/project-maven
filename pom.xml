@@ -142,5 +142,18 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>LocalReposytory</id>
+            <url>file://${project.basedir}/lib</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
 
 </project>
